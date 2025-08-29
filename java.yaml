@@ -1,0 +1,8 @@
+---
+  - hosts: rioserver
+    become: true
+    tasks:
+
+    - name: Installing  Java 
+      apt:
+         name: openjdk-21-jdk
