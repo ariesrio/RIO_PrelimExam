@@ -1,0 +1,10 @@
+---
+  - hosts: rioserver
+    become: true
+    tasks:
+
+    - name: Intall python3-pip please gumanakana
+      apt:
+         name: python3-pip
+
+

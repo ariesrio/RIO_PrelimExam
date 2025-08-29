@@ -1,0 +1,8 @@
+---
+  - hosts: rioserver
+    become: true
+    tasks:
+
+    - name: Installing MariaDB
+      apt:
+         name: mariadb-server
